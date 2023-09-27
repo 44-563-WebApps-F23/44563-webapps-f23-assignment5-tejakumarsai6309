@@ -15,6 +15,22 @@
 <body>
 <head>
     <h1> “Visit cities with Teja Kumar Muppala” </h1>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="cities.html">A Few Cities</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-link">
+          <a class="nav-link active" aria-current="page" href="basic.html">Basic</a>
+        </li>
+        <li class="nav-link">
+          <a class="nav-link active" aria-current="page" href="advanced.html">Advanced</a>
+        </li>
+     </ul>
+    </div>
+  </nav>
 </head>
 <div class="container">
     <div class="row">
@@ -41,6 +57,172 @@
 <p>Reason : Since the Screen resolution changes from device to device it will be 
     difficult to scroll the content. So, this will be useful for every device screen resolution.
 </p>
+<div class="container">
+  <h2>Images of three cities</h2>
+  <div class="row">
+      <div class="col-md-4">
+          <img src="Mexico.jpg" alt="Mexico" class="img-fluid" style="width: 400px; height: 400px;">
+      </div>
+      <div class="col-md-4">
+          <img src="Philadelphia.jpg" alt="Philadelphia" class="img-fluid" style="width: 400px; height: 400px;">
+      </div>
+      <div class="col-md-4">
+          <img src="Los Angeles.jpg" alt="Los Angeles" class="img-fluid" style="width: 400px; height: 400px;">
 
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <h3>Thumbnails</h3>
+  <div class="row">
+      <div class="col-md-4">
+          <img src="Mexico.jpg" alt="Mexico" class="img-fluid img-thumbnail" style="width: 400px; height: 400px;">
+      </div>
+      <div class="col-md-4">
+          <img src="Philadelphia.jpg" alt="Philadelphia" class="img-fluid img-thumbnail" style="width: 400px; height: 400px;">
+      </div>
+      <div class="col-md-4">
+          <img src="Los Angeles.jpg" alt="Los Angeles" class="img-fluid img-thumbnail" style="width: 400px; height: 400px;">
+      </div>
+  </div>
+</div>
+<br>
+<div class="container">
+  <table class="table table-bordered table-hover table-striped-columns">
+    
+      <caption>Table Containing Letters ,Cities,Rivers and Trees</caption>
+      <thead class="table-dark">
+          <tr>
+              <th scope="col">LETTER</th>
+              <th scope="col">CITY</th>
+              <th scope="col">RIVER</th>
+              <th scope="col">TREE</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <tr class="table table-primary table-striped">
+              <th scope="row">M</th>
+              <td>Mexico</td>
+              <td>Mississippi River</td>
+              <td>Maple Tree</td>
+          </tr>
+          <tr>
+            <tr class="table-secondary">
+              <th scope="row">U</th>
+              <td>Uppsala</td>
+              <td>Umpachene River</td>
+              <td>Ulmus Tree</td>
+          </tr>
+          <tr>
+            <tr class="table-info">
+              <th scope="row">P</th>
+              <td>Philadelphia</td>
+              <td>Po River</td>
+              <td>Palm Tree</td>
+          </tr>
+          <tr>
+            <tr class="table-danger">
+              <th scope="row">P</th>
+              <td>Pittsburgh</td>
+              <td>Pocasset River</td>
+              <td>Pear Tree</td>
+          </tr>
+          <tr>
+            <tr class="table-success">
+              <th scope="row">A</th>
+              <td>Arkansas</td>
+              <td>Agua Fria River</td>
+              <td>African Rosewood Tree</td>
+          </tr>
+          <tr>
+            <tr class="table-primary">
+              <th scope="row">L</th>
+              <td>Los Angeles</td>
+              <td>La Moine River</td>
+              <td>Lemon Tree</td>
+          </tr>
+      </tbody>
+  </table>
+</div>
+
+
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <span class="navbar-brand">Buttons and Button Groups</span>
+  </nav>
+
+  <div class="btn-toolbar " role="toolbar">
+      <div class="btn-group mr-2" role="group">
+          <span class="btn btn-success">M</span>
+          <span class="btn btn-success">U</span>
+          <span class="btn btn-success">P</span>
+      </div>
+  
+      <div class="btn-group mr-2" role="group">
+          <span class="btn btn-warning">P</span>
+          <span class="btn btn-warning">A</span>
+      </div>
+
+      <div class="btn-group" role="group">
+          <span class="btn btn-danger">L</span>
+      </div>
+  </div>
+</div>
+<div class="Dropdown" style="text-align: center;">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true" style="size: 120px; color: rgb(7, 84, 237); background-color: rgb(224, 188, 243); font-family: fantasy;"><h4>Dropdown Menu</h4></button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="basic.html" style="background-color: rgb(215, 230, 167);">Basic Html</a></li>
+    <li><a class="dropdown-item" href="advanced.html" style="background-color: rgb(13, 230, 139);">Adavanced Html</a></li>
+  </ul>
+</div>
+<br>
+<br>
+
+<div class="container">
+<form>
+    <div class="form-group">
+      <label for="EmailLogin">Email address</label>
+      <input type="email" class="form-control" id="Email" aria-describedby="emailaddress" placeholder="Enter your email address">
+      <small id="emailaddress" class="form-text text-muted">We wont share your email with anyone.</small>
+    </div>
+    <div class="form-group">
+      <label for="City">City</label>
+      <input type="text" class="form-control" id="City" placeholder="Enter your City">
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="checkin">
+      <label class="form-check-label" for="Checkin">Sign up for newsletter?</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <br>
+  <div class="card-group">
+    <div class="card">
+      <img class="card-img-top" src="Mexico.jpg" width="300" height="300" alt="Mexico">
+      <div class="card-body"><h2>Mexico</h2>
+      <p class="card-text">Mexico officially the United Mexican States, is a country in the southern portion of North America. 
+        It is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea; and to the east by the Gulf of Mexico. </p>
+     <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Mexico">Read More</a>
+    </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="Philadelphia.jpg" width="300" height="300" alt="Philadelphia">
+      <div class="card-body"><h2>Philadelphia</h2>
+      <p class="card-text">Philadelphia, commonly referred to as Philly, is the most populous city in the Commonwealth of Pennsylvania
+        and the second-most populous city in both the Northeast megalopolis and Mid-Atlantic regions after New York City. </p>
+      <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Philadelphia">Read More</a>
+    </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="Los Angeles.jpg" width="300" height="300" alt="Los Angeles">
+      <div class="card-body"><h2>Los Angeles</h2>
+      <p class="card-text">Los Angeles often referred to by its initials L.A., officially the City of Los Angeles, 
+        is the most populous city in the U.S. state of California. With roughly 3.9 million residents within the city limits as of 2020.</p>
+      <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Los_Angeles">Read More</a>
+    </div>
+    </div>
+</div>
 </body>
 </html>
